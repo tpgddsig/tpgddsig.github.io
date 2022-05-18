@@ -9,10 +9,11 @@ The website will consists of resources for students to view and learn from.
 Made by students -
 
 
-**DEVELOPERS:**
+**DEVELOPERS:** <br>
 Aden Koh <br>
 Koh Guan Zhong <br>
 Ong Jian Qin <br>
+Ryan Oh
 
 
 **ARTIST:**
