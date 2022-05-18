@@ -10,9 +10,9 @@ Made by students -
 
 
 **DEVELOPERS:**
-Aden Koh 
-Koh Guan Zhong
-Ong Jian Qin
+Aden Koh <br>
+Koh Guan Zhong <br>
+Ong Jian Qin <br>
 
 
 **ARTIST:**
