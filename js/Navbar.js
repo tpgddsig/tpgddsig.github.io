@@ -6,9 +6,9 @@ navbar.darkModeSwitch = function (){
     document.body.classList.toggle("dark-mode");
     
     if(document.body.classList.contains("dark-mode")){
-        icon.src = "images/sun.png";
+        icon.src = "Images/sun.png";
     }
     else{
-        icon.src = "images/moon.png";
+        icon.src = "Images/moon.png";
     }
 }
