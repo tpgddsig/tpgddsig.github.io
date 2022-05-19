@@ -74,3 +74,25 @@ body{
     margin-top: 1rem;
     font-size: 1.2rem;
 }
+
+#gdd-logo {
+    margin-top: 0.4em;
+ 
+}
+
+
+.nav-item {
+    
+    font-size: 1.5em;
+    margin-left: 1em;
+   
+}
+
+.nav-link, .dropdown-item {
+    color: var(--text-color) !important;
+}
+
+.dropdown-menu {
+    background:  var(--background-color) !important;
+    
+}

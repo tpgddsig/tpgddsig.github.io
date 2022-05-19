@@ -1,20 +1,39 @@
 
 <nav class="navbar navbar-expand-md navbar-items" id="navbar">
-    
+
     <a class="navbar-brand" href="/">
-        <img src="./Images/gdd_mon.png" width="24" height="32" class="d-inline-block align-top"
-            alt="logo" id="logo">
+        
+        <div>
+        <img src="./Images/gdd_mon.png" width="24" height="32" class="d-inline-block align-top" id="gdd-logo"
+             alt="logo" id="logo">
+        </div>
     </a>
-    
+
 
     <img src="./Images/moon.png" width="24" height="24" class="dark-mode-button" alt="dark-mode-logo" id="theme-toggle-icon" onclick="navbar.darkModeSwitch()"/>
-    <div id="toolbar-items">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownResources" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Resources
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Year 1 Resource</a>
+                    <a class="dropdown-item" href="#">Year 2 Resource</a>
+                    <a class="dropdown-item" href="#">Year 3 Resource</a>
+          
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+            </li>
 
-        <span class="badge badge-dark" id="custom-tool-tip" style="display:none">Jump to %place%</span>
-        <a id="Home" onmouseover="showToolTip(id)" onmouseleave = "hideToolTip()" href="#home"><span class="toolbar-dot" id="toolbar-close"></span></a>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About-Us</a>
+            </li>
+          
+        </ul>
 
-        <a id="About Me" onmouseover="showToolTip(id)" onmouseleave = "hideToolTip()" href="#about-me"><span class="toolbar-dot" id="toolbar-minimize"></span></a>
-        <a id="Portfolio" onmouseover="showToolTip(id)" onmouseleave = "hideToolTip()" href="#portfolio"><span class="toolbar-dot" id="toolbar-maximize"></span></a>
     </div>
 </nav>
 
