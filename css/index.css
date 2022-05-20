@@ -45,12 +45,14 @@ body{
     z-index:2;
     position: relative;
     width: 100%;
-    background-color: var(--nav-background-color);
+    background-color: var(--nav-background-color) !important; 
     color: var(--text-color);
     height: 2.7em;
     box-shadow: 2px 2px #444267;
     padding-left: 3px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    
+    
 }
 
 .dark-mode-button{
@@ -94,6 +96,8 @@ body{
     color: var(--text-color) !important;
 }
 
+
+
 .dropdown-item
 {
     font-size: 1.5em;
@@ -106,6 +110,15 @@ body{
 .dropdown-menu {
     background:  var(--background-color) !important;
     
+}
+
+
+
+.navbar-toggler {
+    
+    position: absolute;
+   
+
 }
 
 
