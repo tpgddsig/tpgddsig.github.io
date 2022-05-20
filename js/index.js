@@ -4,13 +4,14 @@ function OnBodyLoad()
 {
     const darkMode = localStorage.getItem("dark-mode");
     
-    console.log(darkMode);
+    console.log(darkMode === true);
     
     if(darkMode != null)
     {
-        if(darkMode)
+        if(darkMode == "true")
         {
             navbar.darkModeSwitch();
+            console.log("ya");
         }
     }
 }
