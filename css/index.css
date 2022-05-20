@@ -1,16 +1,18 @@
 * {
-    transition: background-color 1.2s ease, color 0.18s ease;
+    transition: background-color 0.5s linear, color 0.12s linear;
 }
 
 :root {
     --text-color: #000000;
     --background-color: #ffffff;
     --nav-background-color: #ffffff;
+    --hover-color: rgba(166, 166, 166, 0.3);
 }
 .dark-mode {
     --text-color: #ffffff;
-    --background-color: #303030;
-    --nav-background-color: #1F1B24;
+    --background-color: #121212;
+    --nav-background-color: #1a1a1a;
+    --hover-color: rgba(232, 232, 232, 0.24);
 }
 
 
@@ -97,10 +99,17 @@ body{
     font-size: 1.5em;
 }
 
+.dropdown-item:hover {
+    background: var(--hover-color) !important;
+}
+
 .dropdown-menu {
     background:  var(--background-color) !important;
     
 }
+
+
+
 
 
 
