@@ -5,13 +5,22 @@ navbar.darkModeSwitch = function (){
     
     document.body.classList.toggle("dark-mode");
 
-    console.log(document.body.classList);
+    
+    var isDarkMode;
+
    
     
     if(document.body.classList.contains("dark-mode")){
-        icon.src = "./Images/sun.png";
+        icon.src = "./Images/light_on.svg";
+
+        isDarkMode = true;
     }
     else{
-        icon.src = "./Images/moon.png";
+        icon.src = "./Images/light_off.svg";
+
+        isDarkMode = false;
     }
+
+
+    localStorage.setItem("dark-mode", isDarkMode);
 }
