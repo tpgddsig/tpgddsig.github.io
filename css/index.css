@@ -92,10 +92,17 @@ body{
     color: var(--text-color) !important;
 }
 
+.dropdown-item
+{
+    font-size: 1.5em;
+}
+
 .dropdown-menu {
     background:  var(--background-color) !important;
     
 }
+
+
 
 
 #theme-toggle-icon {
