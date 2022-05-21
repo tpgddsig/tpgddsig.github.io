@@ -8,6 +8,7 @@
     --nav-background-color: #ffffff;
     --hover-color: rgba(166, 166, 166, 0.3);
     --title-highlight-color: aqua;
+    --title-container-color: rgba(255,255,255,0.8);
 }
 .dark-mode {
     --text-color: #ffffff;
@@ -15,6 +16,7 @@
     --nav-background-color: #1a1a1a;
     --hover-color: rgba(232, 232, 232, 0.24);
     --title-highlight-color: aquamarine;
+    --title-container-color: rgba(0,0,0,0.8);
 }
 
 
@@ -90,11 +92,7 @@ body{
     color: var(--text-color);
     text-align: center;
     border-radius: 1em;
-    background-color: var(--background-color);
-    opacity: 80%;
-}
-.title-text{
-    opacity: 100% !important;
+    background-color: var(--title-container-color);
 }
 
 #title-highlight{
