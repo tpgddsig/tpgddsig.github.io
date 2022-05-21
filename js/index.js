@@ -1,9 +1,5 @@
-
-
-
-
 window.addEventListener("load", function() {
-
+    
     setTimeout(() =>{
         const darkMode = localStorage.getItem("dark-mode");
 
@@ -15,6 +11,6 @@ window.addEventListener("load", function() {
                 navbar.darkModeSwitch();
             }
         }
-    }, 10)
+    }, 0)
     
 });
