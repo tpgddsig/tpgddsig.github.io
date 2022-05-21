@@ -7,12 +7,14 @@
     --background-color: #ffffff;
     --nav-background-color: #ffffff;
     --hover-color: rgba(166, 166, 166, 0.3);
+    --title-highlight-color: aqua;
 }
 .dark-mode {
     --text-color: #ffffff;
     --background-color: #121212;
     --nav-background-color: #1a1a1a;
     --hover-color: rgba(232, 232, 232, 0.24);
+    --title-highlight-color: aquamarine;
 }
 
 
@@ -31,13 +33,21 @@
 }
 
 body{
-    background: var(--background-color) !important;
+
+}
+
+.background-image{
+    position: relative;
+    background-image: url("../Images/background_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 100vh;
 }
 
 .container-fluid{
-    position: relative;
-    max-width: 1450px;
-    background-color: var(--background-color);
+    position: absolute;
+    max-width: 1350px;
     color: var(--text-color);
 }
 
@@ -47,12 +57,14 @@ body{
     width: 100%;
     background-color: var(--nav-background-color) !important; 
     color: var(--text-color);
-    height: 2.7em;
     box-shadow: 2px 2px #444267;
+    height: 12.5em;
     padding-left: 3px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    
-    
+}
+.navbar{
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .dark-mode-button{
@@ -60,42 +72,50 @@ body{
 }
 
 .navbar-brand {
-    padding-left: 1rem;
+    margin-left: 5rem;
+    height: 5.5em !important;
 }
 
 .dark-mode-button{
     position: absolute;
-    right: 0.5rem;
+    right: 5rem;
 }
 
 #title-container{
-    margin-top: 2em;
+    margin-top: 2.5em;
     position:relative;
-    font-size: 3.5rem;
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: "Courier New";
+    right: 0%;
+}
+
+#title-highlight{
+    color: var(--title-highlight-color)  !important;
 }
 
 #intro-paragraph{
     margin-top: 1rem;
-    font-size: 1.2rem;
+    font-size: 2.1rem;
+    font-family: "Courier New";
 }
-
-#gdd-logo {
-    margin-top: 0.4em;
- 
-}
-
 
 .nav-item {
     
-    font-size: 1.5em;
-    margin-left: 1em;
-   
+    font-size: 2em;
+    margin-left: 7em;
+    font-weight: bold;
+    font-family: "Courier New";
+}
+
+.navbar-nav.mr-auto {
+    margin-left: auto !important;
+    margin-right: 17.5rem !important;
 }
 
 .nav-link, .dropdown-item {
     color: var(--text-color) !important;
 }
-
 
 
 .dropdown-item
@@ -112,20 +132,10 @@ body{
     
 }
 
-
-
 .navbar-toggler {
     
     position: absolute;
-   
-
 }
-
-
-
-
-
-
 
 #theme-toggle-icon {
     

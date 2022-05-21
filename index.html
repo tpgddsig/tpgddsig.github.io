@@ -7,9 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>gdd</title>
-
-
-    <script src="js/index.js"></script>
     
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
@@ -27,21 +24,26 @@
 
 <body onload="OnBodyLoad()">
     <div w3-include-html="navi/toolbar.html"></div>
+    <div class="background-image"></div>
     <div class="container-fluid" id="home-container">
-        <div class="col-sm-4" id="title-container">
-            <b>Game Design<br></b>
-            <b>And <br></b>
-            <b>Development.<br></b>
-            <h6 id="intro-paragraph">Stimulate your mind as you test your typing speed with this standard English paragraph typing test.</h6>
+        <div class ="row justify-content-end">
+            <div class="col-sm-4 " id="title-container">
+                <b>Game Design<br></b>
+                <b id="title-highlight">And <br></b>
+                <b>Development.<br></b>
+                <h6 id="intro-paragraph">Start your 3-year Game Design & Development journey at Temasek Polytechnic!</h6>
+            </div>
         </div>
     </div>
 </body>
 
 
 <script src="js/w3.js"></script>
+
 <script>
     //to bring in other HTML on the fly into this page
     w3.includeHTML();
 </script>
 <script src="js/Navbar.js"></script>
+<script src="js/index.js"></script>
 </html>
