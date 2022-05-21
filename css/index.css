@@ -38,22 +38,21 @@ body{
 
 .background-image{
     position: relative;
+    overflow: auto;
     background-image: url("../Images/background_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
     height: 100vh;
 }
 
-.container-fluid{
-    position: absolute;
-    max-width: 1350px;
-    color: var(--text-color);
+#container-fluid{
+    max-width: 1450px !important;
+    margin-top: 12rem;
 }
 
 #navbar {
     z-index:2;
-    position: relative;
+    position: absolute;
     width: 100%;
     background-color: var(--nav-background-color) !important; 
     color: var(--text-color);
@@ -80,14 +79,22 @@ body{
     position: absolute;
     right: 5rem;
 }
-
 #title-container{
     margin-top: 2.5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     position:relative;
     font-size: 5rem;
     font-weight: bold;
     font-family: "Courier New";
-    right: 0%;
+    color: var(--text-color);
+    text-align: center;
+    border-radius: 1em;
+    background-color: var(--background-color);
+    opacity: 80%;
+}
+.title-text{
+    opacity: 100% !important;
 }
 
 #title-highlight{
@@ -96,6 +103,7 @@ body{
 
 #intro-paragraph{
     margin-top: 1rem;
+    width: 100% !important;
     font-size: 2.1rem;
     font-family: "Courier New";
 }
