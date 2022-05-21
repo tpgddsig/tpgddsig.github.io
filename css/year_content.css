@@ -1,0 +1,110 @@
+﻿.background-image{
+    position: relative;
+    overflow: auto;
+    background-image: url("../Images/background_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#container-fluid{
+    max-width: 1450px !important;
+    height: calc(100% - 12.5em);
+    overflow: visible;
+    margin-top: 11rem;
+}
+
+#header-container{
+    background-color: var(--background-color);
+    box-shadow: 3px 3px #444267;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    position: relative;
+    z-index: 1;
+}
+
+#header-content{
+    margin: 5rem;
+    color: var(--text-color);
+    font-family: "Courier New";
+}
+
+#header-title{
+    display: block;
+    margin-top: 7rem;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#header-course{
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: var(--title-highlight-color);
+}
+
+#header-description{
+    display: block;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+#header-disclaimer{
+    display: block;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+#grid-container{
+    position: relative;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+.grid-content{
+    background-color: var(--grid-background-color);
+    border-radius: 1.5rem;
+    color: var(--text-color);
+    font-family: "Courier New";
+    width: 85%;
+
+    box-shadow: 3px 3px #444267;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.grid-content img{
+    border-radius: 1.5rem 1.5rem 0 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.grid-subject{
+    display: block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 4rem;
+    font-size: 2rem;
+}
+
+.grid-description{
+    display: block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    color: #696969;
+}
+
+.grid-language{
+    display: block;
+    padding: 2rem 2rem 4rem;
+    margin-top: 0.75rem;
+    margin-bottom: 3rem;
+    font-size: 1.25rem;
+    color: #696969;
+}
+
+#grid{
+    background-color: var(--background-color);
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+
+
+
+

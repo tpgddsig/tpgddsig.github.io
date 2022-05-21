@@ -11,6 +11,8 @@ window.addEventListener("load", function() {
                 navbar.darkModeSwitch();
             }
         }
-    }, 0)
+    }, 1000)
     
 });
+
+

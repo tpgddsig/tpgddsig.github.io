@@ -28,3 +28,16 @@ navbar.darkModeSwitch = function (){
 
     localStorage.setItem("dark-mode", isDarkMode);
 }
+
+function FollowLink(pageUrl)
+{
+    console.log("HI!");
+    jQuery.ajax({
+        url: pageUrl,
+        type: "GET",
+        dataType: 'html',
+        success: function(response){
+            document.getElementsByTagName('html')[0].innerHTML = response
+        }
+    });
+}
