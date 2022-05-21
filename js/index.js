@@ -1,3 +1,5 @@
+window.onload = OnPageLoad;
+
 function OnBodyLoad()
 {
     const darkMode = localStorage.getItem("dark-mode");
@@ -10,4 +12,10 @@ function OnBodyLoad()
             navbar.darkModeSwitch();
         }
     }
+}
+
+function OnPageLoad(){
+    setTimeout(() =>{
+        OnBodyLoad()
+    }, 10)
 }

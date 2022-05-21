@@ -4,6 +4,9 @@ navbar.darkModeSwitch = function (){
     var icon = document.getElementById("theme-toggle-icon");
     var logo = document.getElementById("gdd-logo");
     
+    console.log(icon);
+    console.log(logo);
+    
     document.body.classList.toggle("dark-mode");
     
     var isDarkMode;
