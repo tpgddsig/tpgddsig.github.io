@@ -41,7 +41,7 @@ body{
 .background-image{
     position: relative;
     overflow: auto;
-    background-image: url("../Images/background_image.jpg");
+    background-image: url("../Images/background_image_v2.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
