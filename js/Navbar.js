@@ -1,15 +1,15 @@
 ﻿var navbar = {};
 
 navbar.darkModeSwitch = function (){
-    var icon = document.getElementById("theme-toggle-icon");
-    var logo = document.getElementById("gdd-logo");
+    const icon = document.getElementById("theme-toggle-icon");
+    const logo = document.getElementById("gdd-logo");
     
     console.log(icon);
     console.log(logo);
     
     document.body.classList.toggle("dark-mode");
     
-    var isDarkMode;
+    let isDarkMode;
     
     if(document.body.classList.contains("dark-mode")){
 
