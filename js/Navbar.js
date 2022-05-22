@@ -10,8 +10,6 @@ navbar.darkModeSwitch = function (){
     if(document.documentElement.classList.contains("dark-mode"))
         isDarkMode = true;
     
-    console.log(isDarkMode);
-    
     
 
     localStorage.setItem("dark-mode", isDarkMode.toString());
