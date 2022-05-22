@@ -6,6 +6,7 @@
     --text-color: #000000;
     --background-color: #ffffff;
     --nav-background-color: #ffffff;
+    --nav-description-color: #ffffff;
     --grid-background-color: #ffffff;
     --hover-color: rgba(166, 166, 166, 0.3);
     --title-highlight-color: red;
@@ -18,6 +19,7 @@
     --text-color: #ffffff;
     --background-color: #121212;
     --nav-background-color: #141414ff;
+    --nav-description-color: #141414ff;
     --grid-background-color: #1F1B24;
     --hover-color: rgba(232, 232, 232, 0.24);
     --title-highlight-color: crimson;
@@ -26,22 +28,110 @@
     --theme-icon: url("../Images/light_on.svg");
 }
 
+#hamburger-nav,  #hamburger-nav-body {
+    display: none;
+    
+    background: none;
+    border-color: transparent;
 
-@media screen and (max-width: 480px) { /* overwrites when it's mobile */
+}
+
+@media screen and (min-width: 481px) and (max-width: 820px) {   /* overwrites when it's ipad sizes */
+
+ 
+  
+}
+
+@media screen and (max-width: 820px) { /* overwrites when it's mobile + ipad sizes */
     .navbar-brand {
         
-        margin: auto !important;
-        margin-bottom: 4em !important;
-      
+        margin-left: auto !important;
+        margin-right: auto !important;
+        
+        width: 45%;
+        
+        
+       
+        
+
     }
     #theme-toggle-icon {
         
         margin: 0 !important;
       
     }
+    
+    #hamburger-nav {
+        display: inline-block;
+        margin-left: 4em;
+    }
+    
+    #navbarSupportedContent {
+
+       
+        display: none;
+        
+        margin-top: 4em;
+        height: auto;
+        width: 100%;
+
+        animation: growDown 200ms ease-in-out forwards;
+      
+        background-color: var(--nav-description-color);
+
+        -webkit-box-shadow: 0 4px 6px -6px black;
+        -moz-box-shadow: 0 4px 6px -6px black;
+        box-shadow: 0 4px 6px -6px black;
+
+     
+      
+    
+    }
+
+
+    
+   .dropdown-menu.show {
+     
+       width: auto !important;
+       display: inline-block !important;
+      
+   }
+    
+    .nav-link {
+        width: 250%;
+        
+    }
+    
+    .navbar-nav.mr-auto {
+        
+      
+   
+        
+        padding-bottom: 2em;
+   
+    }
+
 
     
     
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+.dropdown-menu.show {
+
+    animation: growDown 200ms ease-in-out forwards;
+
 }
 
 
