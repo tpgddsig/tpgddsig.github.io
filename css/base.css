@@ -1,5 +1,10 @@
 ﻿* {
     transition: background-color 0.1s linear, color 0.12s linear;
+    
+}
+
+html {
+    background-color: var(--background-color);
 }
 
 :root {
