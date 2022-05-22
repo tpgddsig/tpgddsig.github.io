@@ -3,9 +3,7 @@
     
 }
 
-html {
-    background-color: black;
-}
+
 
 :root {
     --text-color: #000000;
@@ -35,6 +33,10 @@ html {
     --theme-icon: url("../Images/light_on.svg");
     --menu-icon-close: url("../css/icons/menu_white.svg");
     --menu-icon-open: url("../css/icons/menu_open_white.svg");
+}
+
+html {
+    background-color: var( --background-color);
 }
 
 #hamburger-nav,  #hamburger-nav-body {
