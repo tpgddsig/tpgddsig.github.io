@@ -1,4 +1,13 @@
-﻿.background-image{
+﻿@media (max-width: 750px) {
+    .col-sm-4 {
+        padding:0 !important;
+        margin-right:0 !important;
+        
+    }
+}
+
+
+.background-image{
     position: relative;
     overflow: auto;
     background-image: url("../Images/background_image.jpg");
@@ -48,7 +57,7 @@
 
 #header-disclaimer{
     display: block;
-    font-size: 1.8rem;
+    font-size: 1.8em;
     margin-top: 2rem;
 }
 
@@ -56,6 +65,9 @@
     position: relative;
     padding-top: 6rem;
     padding-bottom: 2rem;
+}
+.col-sm-4{
+    margin-bottom: 5rem;
 }
 
 .grid-content{
@@ -79,7 +91,7 @@
     padding-left: 2rem;
     padding-right: 2rem;
     margin-top: 4rem;
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 .grid-description{
@@ -87,7 +99,7 @@
     padding-left: 2rem;
     padding-right: 2rem;
     margin-top: 2rem;
-    font-size: 1.25rem;
+    font-size: 1.25em;
     color: #696969;
 }
 
@@ -96,7 +108,7 @@
     padding: 2rem 2rem 4rem;
     margin-top: 0.75rem;
     margin-bottom: 3rem;
-    font-size: 1.25rem;
+    font-size: 1.25em;
     color: #696969;
 }
 
