@@ -26,6 +26,25 @@
     --theme-icon: url("../Images/light_on.svg");
 }
 
+
+@media screen and (max-width: 480px) { /* overwrites when it's mobile */
+    .navbar-brand {
+        
+        margin: auto !important;
+        margin-bottom: 4em !important;
+      
+    }
+    #theme-toggle-icon {
+        
+        margin: 0 !important;
+      
+    }
+
+    
+    
+}
+
+
 #gdd-logo {
     content: var(--gdd-icon);
 
@@ -33,6 +52,7 @@
 
 #theme-toggle-icon {
     content: var(--theme-icon);
+    margin-right: 1em;
 }
 
 
@@ -69,8 +89,9 @@
 }
 
 .navbar-brand {
-    margin-left: 5rem;
-    height: 5.5em !important;
+ 
+    margin-left: 3em;
+    margin-bottom: 2em;
 }
 
 .dark-mode-button{
@@ -115,6 +136,3 @@
     position: absolute;
 }
 
-#theme-toggle-icon {
-    margin-right: 1em;
-}
