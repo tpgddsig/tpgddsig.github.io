@@ -1,0 +1,9 @@
+.background-image{
+    position: relative;
+    overflow: auto;
+    /*placeholder background*/
+    background-image: url("../Images/background_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
