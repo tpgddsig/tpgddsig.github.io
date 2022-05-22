@@ -36,8 +36,10 @@
 }
 
 html {
-    background-color: var( --background-color);
+    background-color: var(--background-color);
 }
+
+
 
 #hamburger-nav,  #hamburger-nav-body {
     display: none;
