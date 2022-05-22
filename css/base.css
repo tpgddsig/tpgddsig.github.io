@@ -14,6 +14,8 @@
     --hover-color: rgba(166, 166, 166, 0.3);
     --title-highlight-color: red;
     --title-container-color: rgba(255,255,255,0.8);
+    --default-font-family: url("../css/font/montserratbold.ttf");
+    --default-font-family-bold:url("../css/font/helvetica/Helvetica-Bold.ttf");
     --gdd-icon: url("../Images/sig_logo_light.svg");
     --theme-icon: url("../Images/light_off.svg");
     --menu-icon-close: url("../css/icons/menu.svg");
