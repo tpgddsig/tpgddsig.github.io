@@ -10,7 +10,10 @@
     --hover-color: rgba(166, 166, 166, 0.3);
     --title-highlight-color: red;
     --title-container-color: rgba(255,255,255,0.8);
+    --gdd-icon: url("../Images/sig_logo_light.svg");
+    --theme-icon: url("../Images/light_off.svg");
 }
+
 .dark-mode {
     --text-color: #ffffff;
     --background-color: #121212;
@@ -19,6 +22,17 @@
     --hover-color: rgba(232, 232, 232, 0.24);
     --title-highlight-color: crimson;
     --title-container-color: rgba(0,0,0,0.8);
+    --gdd-icon: url("../Images/sig_logo_dark.svg");
+    --theme-icon: url("../Images/light_on.svg");
+}
+
+#gdd-logo {
+    content: var(--gdd-icon);
+
+}
+
+#theme-toggle-icon {
+    content: var(--theme-icon);
 }
 
 
