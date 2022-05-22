@@ -8,7 +8,9 @@
     <title>Game Design & Development - Events</title>
 
     <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="./css/events.css">
     <link rel="stylesheet" href="../css/content_events.css">
+    
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -19,6 +21,7 @@
 
     <script src="../js/document_load.js"></script>
     <script src="../js/hamburger_framework/framework.js"></script>
+    <script src="./js/events.js"></script>
 
 
 </head>
@@ -26,6 +29,99 @@
 <body>
     <div class="background-image">
         <div w3-include-html="../navi/toolbar.html"></div>
+
+        <div id="events-whole-body">
+
+
+            <div id="events-header">
+
+
+                <span id="events-header-text">SIG EVENTS</span>
+                <br>
+
+                <span id="events-description-text">We have really exciting events that you can find below!</span>
+
+            </div>
+
+
+            <div  class="events-main-content">
+              
+                <div class="events-content" onmouseover="EventMouseOver(this)" onmouseleave="EventMouseDown(this)" >
+                    
+                    
+          
+                   
+    
+                 
+                    <div class="container event-container" >
+                        <div class="row">
+                            <div class="col-sm">
+                                
+                                <div class="event-header-div">
+                                    <img class="event-header-icon" src="../css/icons/event1.svg">
+                                    <div class="event-date-div">
+                                        
+                                        <span class="event_date">23rd May 
+                                            <span class="event_date_year">2022</span></span>
+                                    </div>
+                                </div>
+                                
+                              
+                            </div>
+                            <div class="col-sm">
+                                
+                                <div class="event_description_div">
+                                <span class="event_description event_name"><b>HP SINGAPORE VISIT</b> </span>
+                                <br>
+                                <span class="event_description event_description">
+                                      <img class="event-quote-icon" src="../css/icons/quote_white.svg"> Prepare AR & VR demos in the Serious Games 
+                                    Hub to showcase to HP SINGAPORE.</span>
+                           
+                                </div>
+
+                                <br>
+                                <br>
+
+                                <div class="event_information_div ">
+                                    <span class="event_description">
+                                  
+                                        <b>Time:</b> 2:00PM - 2:30PM
+                                        <br>
+                                        <b>Location:</b> Serious Games Hub
+                                    </span>
+
+                                </div>
+                               
+                            </div>
+                            
+                            <div class="col-sm">
+                                
+                            
+                                <div>
+
+                                    <span class="click-to-register">CLICK TO REGSITER!</span>
+                                </div>
+                                
+                      
+                           
+                                
+                            </div>
+                        </div>
+                    </div>
+    
+                   
+                   
+                    
+                </div>
+            </div>
+
+       
+
+ 
+        
+        </div>
+
+        
         
     </div>
 </body>

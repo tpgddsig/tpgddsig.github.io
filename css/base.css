@@ -18,6 +18,7 @@
     --theme-icon: url("../Images/light_off.svg");
     --menu-icon-close: url("../css/icons/menu.svg");
     --menu-icon-open: url("../css/icons/menu_open.svg");
+    --event-quote-icon: url("/css/icons/quote.svg");
 }
 
 .dark-mode {
@@ -36,6 +37,7 @@
     --theme-icon: url("../Images/light_on.svg");
     --menu-icon-close: url("../css/icons/menu_white.svg");
     --menu-icon-open: url("../css/icons/menu_open_white.svg");
+    --event-quote-icon: url("/css/icons/quote_white.svg");
 }
 
 html {
@@ -264,3 +266,24 @@ html {
     position: absolute;
 }
 
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: crimson;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
