@@ -23,12 +23,15 @@
 .dark-mode {
     --text-color: #ffffff;
     --background-color: #121212;
-    --nav-background-color: #141414ff;
+    --background-image-color: linear-gradient(to right, rgba(31,27,45,1) , rgba(25,22,22,1));
+    --nav-background-color: #536976;
+    --nav-background-image: linear-gradient(to right, #292e49, #1F1B24);
     --nav-description-color: #141414ff;
     --grid-background-color: #1F1B24;
     --hover-color: rgba(232, 232, 232, 0.24);
     --title-highlight-color: crimson;
-    --title-container-color: rgba(0,0,0,0.8);
+    --title-container-color: rgba(0,0,0, 0.8);
+    --title-background-color: linear-gradient(to right, rgba(41,46,73,0.7), rgba(31,27,36,0.7));
     --gdd-icon: url("../Images/sig_logo_dark.svg");
     --theme-icon: url("../Images/light_on.svg");
     --menu-icon-close: url("../css/icons/menu_white.svg");
@@ -197,6 +200,7 @@ html {
     position: absolute;
     width: 100%;
     background-color: var(--nav-background-color) !important;
+    background-image: var(--nav-background-image) !important;
     color: var(--text-color);
     box-shadow: 2px 2px #444267;
     height: 12.5em;

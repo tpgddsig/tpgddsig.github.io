@@ -1,4 +1,4 @@
-@media (min-width: 1140px) {
+@media (min-width: 990px) {
     #title-container{
         margin-right: 2rem !important;
         margin-left: 0 !important;
@@ -13,9 +13,7 @@
 
 #title-container{
     max-width: 90%;
-    margin-top: 1.5em;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     padding-top: 2em;
     padding-bottom: 2em;
     position:relative;
@@ -26,6 +24,7 @@
     text-align: center;
     border-radius: 1em;
     background-color: var(--title-container-color);
+    background-image: var(--title-background-color);
 }
 
 #title-highlight{
@@ -49,7 +48,8 @@
 
 #container-fluid{
     max-width: 1450px !important;
-    margin-top: 12rem;
+    margin-top: 12.5rem;
+    height: calc(100% - 12.5em);
 }
 
 .adventure-button{
@@ -93,4 +93,9 @@
     opacity: 1;
     right: 0;
 }
+
+#content-container{
+    height: 100%;
+}
+
 
