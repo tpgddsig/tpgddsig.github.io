@@ -36,13 +36,13 @@
 
 }
 
-@media screen and (min-width: 481px) and (max-width: 820px) {   /* overwrites when it's ipad sizes */
+@media screen and (min-width: 481px) and (max-width: 992px) {   /* overwrites when it's ipad sizes */
 
  
   
 }
 
-@media screen and (max-width: 820px) { /* overwrites when it's mobile + ipad sizes */
+@media screen and (max-width: 992px) { /* overwrites when it's mobile + ipad sizes */
     .navbar-brand {
         
         margin-left: auto !important;
