@@ -13,6 +13,8 @@
     --title-container-color: rgba(255,255,255,0.8);
     --gdd-icon: url("../Images/sig_logo_light.svg");
     --theme-icon: url("../Images/light_off.svg");
+    --menu-icon-close: url("../css/icons/menu.svg");
+    --menu-icon-open: url("../css/icons/menu_open.svg");
 }
 
 .dark-mode {
@@ -26,6 +28,8 @@
     --title-container-color: rgba(0,0,0,0.8);
     --gdd-icon: url("../Images/sig_logo_dark.svg");
     --theme-icon: url("../Images/light_on.svg");
+    --menu-icon-close: url("../css/icons/menu_white.svg");
+    --menu-icon-open: url("../css/icons/menu_open_white.svg");
 }
 
 #hamburger-nav,  #hamburger-nav-body {
@@ -43,6 +47,18 @@
 }
 
 @media screen and (max-width: 992px) { /* overwrites when it's mobile + ipad sizes */
+
+
+    .menu-open {
+
+        content: var(--menu-icon-open) !important;
+    }
+    
+    #hamburger-nav-icon {
+        content: var(--menu-icon-close);
+    }
+    
+    
     .navbar-brand {
         
         margin-left: auto !important;
@@ -62,6 +78,7 @@
     }
     
     #hamburger-nav {
+      
         display: inline-block;
         margin-left: 4em;
     }

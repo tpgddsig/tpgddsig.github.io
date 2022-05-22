@@ -3,19 +3,32 @@
 function OpenMenu()
 {
     const navbarBody = document.getElementById("navbarSupportedContent");
+    const menuIcon = document.getElementById("hamburger-nav-icon");
 
     console.log(navbarBody);
     
+    let displayMode;
+    
+    
     if(navbarBody.style.display != "inline-block")
     {
-        navbarBody.style.display = "inline-block";
+        displayMode = "inline-block";
+        
+        
 
      
+        
     }
     else
     {
-        navbarBody.style.display = "none";
+        displayMode = "none";
     }
+    
+
+    menuIcon.classList.toggle("menu-open");
+    
+
+    navbarBody.style.display = displayMode;
    
     
 }
