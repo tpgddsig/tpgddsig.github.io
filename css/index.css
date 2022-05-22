@@ -1,5 +1,21 @@
+@media (min-width: 1140px) {
+    #title-container{
+        margin-right: 2rem !important;
+        margin-left: 0 !important;
+    }
+}
+@media (min-width: 1500px) {
+    #title-container{
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+}
+
 #title-container{
+    max-width: 90%;
     margin-top: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 2em;
     padding-bottom: 2em;
     position:relative;
