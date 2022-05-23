@@ -17,7 +17,7 @@
     padding-top: 2em;
     padding-bottom: 2em;
     position:relative;
-    font-size: 5rem;
+    font-size: calc(3rem + 1vw);
     font-weight: bold;
     font-family: "Courier New";
     color: var(--text-color);
@@ -34,7 +34,7 @@
 #intro-paragraph{
     margin-top: 1rem;
     width: 100% !important;
-    font-size: 2.1rem;
+    font-size: calc(1.5rem + 0.3vw);
     font-family: "Courier New";
 }
 .background-image{
@@ -56,7 +56,7 @@
     width: 250px;
     padding: 15px;
     text-align: center;
-    font-size: 0.35em;
+    font-size: calc(1.5rem + 0.15vw);
     margin: 0;
     border-radius: 25px;
     font-weight: bold;
