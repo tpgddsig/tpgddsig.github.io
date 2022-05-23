@@ -15,12 +15,12 @@
     --hover-color: rgba(166, 166, 166, 0.3);
     --title-highlight-color: red;
     --title-container-color: rgba(255,255,255,0.8);
-    --default-font-family: url("../css/font/montserratbold.ttf");
-    --default-font-family-bold:url("../css/font/helvetica/Helvetica-Bold.ttf");
-    --gdd-icon: url("../Images/sig_logo_light.svg");
-    --theme-icon: url("../Images/light_off.svg");
-    --menu-icon-close: url("../css/icons/menu.svg");
-    --menu-icon-open: url("../css/icons/menu_open.svg");
+    --default-font-family: url("/css/font/montserratbold.ttf");
+    --default-font-family-bold:url("/css/font/helvetica/Helvetica-Bold.ttf");
+    --gdd-icon: url("/Images/sig_logo_light.svg");
+    --theme-icon: url("/Images/light_off.svg");
+    --menu-icon-close: url("/css/icons/menu.svg");
+    --menu-icon-open: url("/css/icons/menu_open.svg");
     --event-quote-icon: url("/css/icons/quote.svg");
 }
 
@@ -36,10 +36,10 @@
     --title-highlight-color: crimson;
     --title-container-color: rgba(0,0,0, 0.8);
     --title-background-color: linear-gradient(to right, rgba(41,46,73,0.7), rgba(31,27,36,0.7));
-    --gdd-icon: url("../Images/sig_logo_dark.svg");
-    --theme-icon: url("../Images/light_on.svg");
-    --menu-icon-close: url("../css/icons/menu_white.svg");
-    --menu-icon-open: url("../css/icons/menu_open_white.svg");
+    --gdd-icon: url("/Images/sig_logo_dark.svg");
+    --theme-icon: url("/Images/light_on.svg");
+    --menu-icon-close: url("/css/icons/menu_white.svg");
+    --menu-icon-open: url("/css/icons/menu_open_white.svg");
     --event-quote-icon: url("/css/icons/quote_white.svg");
 }
 

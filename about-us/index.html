@@ -7,7 +7,7 @@
 
     <title>Game Design & Development - About Us</title>
 
-    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="./css/content_about.css">
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -22,11 +22,10 @@
 
 </head>
 
-<script src="./js/document_load.js"></script>
 
 <body>
     <div class="background-image">
-        <div w3-include-html="navi/toolbar.html"></div>
+        <div w3-include-html="../navi/toolbar.html"></div>
         
         <div class="container-fluid" id="content-container">
             <div class="container" id="goal-container">
@@ -38,7 +37,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-lg-6 d-flex justify-content-center my-auto" id="content-image-container">
-                    <img src="./Images/undraw_team_goals_re_4a3t.svg" id="content-image" width="300px" height="300px">
+                    <img src="/Images/undraw_team_goals_re_4a3t.svg" id="content-image" width="300px" height="300px">
                 </div>
             </div>
             <div class="container" id="developer-container">
@@ -48,28 +47,30 @@
                 <div class="container" id="developer-grid">
                     <div class="col-xs-6 col-sm-6 col-lg-3">
                         <div class="grid-content">
-                            <img src="./Images/avatar.jpg" class="developer-avatar" width="150px" height="150px">
+                            <img src="/Images/avatar.jpg" class="developer-avatar" width="150px" height="150px">
                             <h1>Koh Guan Zhong</h1>
                             <h3>Developer</h3>
+                            
+                            
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-lg-3">
                         <div class="grid-content">
-                            <img src="./Images/avatar2.jpg" class="developer-avatar" width="150px" height="150px">
+                            <img src="/Images/avatar2.jpg" class="developer-avatar" width="150px" height="150px">
                             <h1>Aden Koh</h1>
                             <h3>Developer</h3>
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-lg-3">
                         <div class="grid-content">
-                            <img src="./Images/avatar3.jpg" class="developer-avatar" width="150px" height="150px">
+                            <img src="/Images/avatar3.jpg" class="developer-avatar" width="150px" height="150px">
                             <h1>Ryan Oh</h1>
                             <h3>Developer</h3>
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-lg-3">
                         <div class="grid-content">
-                            <img src="./Images/avatar4.jpg" class="developer-avatar" width="150px" height="150px">
+                            <img src="/Images/avatar4.jpg" class="developer-avatar" width="150px" height="150px">
                             <h1>Ong Jian Qin</h1>
                             <h3>Developer</h3>
                         </div>
@@ -81,7 +82,7 @@
     </div>
 </body>
 
-<script src="js/w3.js"></script>
+<script src="../js/w3.js"></script>
 
 <script>
     //to allow tooltips to work
@@ -95,6 +96,6 @@
     //to bring in other HTML on the fly into this page
     w3.includeHTML();
 </script>
-<script src="js/Navbar.js"></script>
-<script src="js/index.js"></script>
+<script src="../js/Navbar.js"></script>
+<script src="../js/index.js"></script>
 </html>
