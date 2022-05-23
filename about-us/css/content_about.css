@@ -57,6 +57,23 @@
     margin-top: 4rem;
 }
 
+#lecturer-about-us{
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    font-family: "Courier New";
+    color: var(--text-color);
+}
+
+#lecturer-grid{
+    margin-bottom: 10rem;
+}
+
+.lecturer-avatar{
+    margin-top: 4rem;
+    border-radius: 50%;
+}
+
 #developer-about-us{
     text-align: center;
     font-size: 4em;
