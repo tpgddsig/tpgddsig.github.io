@@ -8,6 +8,7 @@
 :root {
     --text-color: #000000;
     --background-color: #ffffff;
+    --background-image-color: #ffffff;
     --nav-background-color: #ffffff;
     --nav-description-color: #ffffff;
     --grid-background-color: #ffffff;
@@ -97,8 +98,6 @@ html {
     }
     
     #navbarSupportedContent {
-
-       
         display: none;
         
         margin-top: 4em;
@@ -112,13 +111,7 @@ html {
         -webkit-box-shadow: 0 4px 6px -6px black;
         -moz-box-shadow: 0 4px 6px -6px black;
         box-shadow: 0 4px 6px -6px black;
-
-     
-      
-    
     }
-
-
     
    .dropdown-menu.show {
      
@@ -133,17 +126,9 @@ html {
     }
     
     .navbar-nav.mr-auto {
-        
-      
-   
-        
         padding-bottom: 2em;
    
     }
-
-
-    
-    
 }
 
 @media screen and (min-width: 580px) and (max-width: 992px) {   /* overwrites when it's ipad sizes */

@@ -9,7 +9,6 @@
 
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/content_about.css">
-    <link rel="stylesheet" href="./css/about_us.css">
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -25,80 +24,58 @@
 
 <body>
     <div class="background-image">
-
-
         <div w3-include-html="navi/toolbar.html"></div>
-
-
-        <div class="container" id="content-container">
-            <div class="row">
-                <div class="col-sm-12" id="title-col">
-                    About Us
+        
+        <div class="container-fluid" id="content-container">
+            <div class="container" id="goal-container">
+                <div class="col-xs-12 col-sm-12 col-lg-6" id="content-our-goal">
+                    <div class="content-text">
+                        <h1>Our Goal</h1>
+                        <p>This website is made for our fellow GDD comrades. Regardless of your background or year, all GDD students are welcome!</p>
+                        <p>We are a group of students from the Game Design & Development's Student Interest Group, who have been through this course and would like to make the life of future students easier by providing an avenue for them to access useful materials!</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-lg-6 d-flex justify-content-center my-auto" id="content-image-container">
+                    <img src="./Images/undraw_team_goals_re_4a3t.svg" id="content-image" width="300px" height="300px">
                 </div>
             </div>
-            <div class="row" id="intro-row">
-                <div class="col-sm-12" id="intro-col">
-                    <div class="intro-title" id="test">
-                        Who is this website made for?
-                    </div>
-                    <div class="intro-content">
-                        This website is made for our fellow GDD comrads. Regardless of your background or year, all GDD students are welcome!
-                    </div>
-                    <div class="intro-title">
-                        Who are we?
-                    </div>
-                    <div class="intro-content">
-                        We are a group of alumni students who have been through GDD and would like to make the life of future GDD students easier by providing an avenue for them to access useful materials.
-                    </div>
-                    
-                    <div id="Socials">
-                        <b>FOLLOW US HERE:</b> <br>
-                        <a href="https://www.instagram.com/gddtp/"><img src="./css/icons/instagram_icon.svg" data-bs-toggle="tooltip" data-bs-placement="left" title="gddtp"></a>
-                    </div>
+            <div class="container" id="developer-container">
+                <div class="col-xs-12 col-sm-12 col-lg-12" id="developer-about-us">
+                    Our Team!
                 </div>
-            </div>
-            <div class="row" id="cards-row">
-                <div class="col">
-                    <div class="card">
-                        <img class="card-img-top" src="./css/icons/account_circle_black_36dp.svg" alt="">
-                        <div class="card-body">
-                            <div class="card-title">
-                                John Doe
-                            </div>
-                            <div class="card-text">
-                                I love game design and development cause i get to learn to design levels!
-                            </div>
+                <div class="container" id="developer-grid">
+                    <div class="col-xs-6 col-sm-6 col-lg-3">
+                        <div class="grid-content">
+                            <img src="./Images/avatar.jpg" class="developer-avatar" width="150px" height="150px">
+                            <h1>Koh Guan Zhong</h1>
+                            <h3>Developer</h3>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img class="card-img-top" src="./css/icons/account_circle_black_36dp.svg" alt="">
-                        <div class="card-body">
-                            <div class="card-title">
-                                Jane Doe
-                            </div>
-                            <div class="card-text">
-                                I love coding and the development portion of my course!
-                            </div>
+                    <div class="col-xs-6 col-sm-6 col-lg-3">
+                        <div class="grid-content">
+                            <img src="./Images/avatar2.jpg" class="developer-avatar" width="150px" height="150px">
+                            <h1>Aden Koh</h1>
+                            <h3>Developer</h3>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img class="card-img-top" src="./css/icons/account_circle_black_36dp.svg" alt="">
-                        <div class="card-body">
-                            <div class="card-title">
-                                Lorem Ipsem Name
-                            </div>
-                            <div class="card-text">
-                                I love Mr. Shamim
-                            </div>
+                    <div class="col-xs-6 col-sm-6 col-lg-3">
+                        <div class="grid-content">
+                            <img src="./Images/avatar3.jpg" class="developer-avatar" width="150px" height="150px">
+                            <h1>Ryan Oh</h1>
+                            <h3>Developer</h3>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-lg-3">
+                        <div class="grid-content">
+                            <img src="./Images/avatar4.jpg" class="developer-avatar" width="150px" height="150px">
+                            <h1>Ong Jian Qin</h1>
+                            <h3>Developer</h3>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
 </body>
 

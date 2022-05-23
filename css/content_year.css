@@ -6,7 +6,6 @@
     }
 }
 
-
 .background-image{
     position: relative;
     overflow: auto;
@@ -69,6 +68,8 @@
 }
 .col-xs-12.col-sm-12.col-lg-4{
     margin-bottom: 5rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
 }
 
 .grid-content{

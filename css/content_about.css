@@ -1,3 +1,13 @@
+@media (max-width: 1050px) {
+    #goal-container{
+        display: block !important;
+    }
+
+    #content-image-container{
+        flex: 1 !important;
+    }
+}
+
 .background-image{
     position: relative;
     overflow: auto;
@@ -6,4 +16,83 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+}
+
+#content-container{
+    background-color: var(--background-color);
+    max-width: 1450px !important;
+    margin-top: 12.5rem !important;
+}
+#goal-container{
+    display: flex;
+}
+#content-image-container{
+    flex: 1;
+}
+
+#content-image{
+    background-color: var(--background-color);
+}
+
+.content-text{
+    padding: 5rem;
+}
+
+.content-text h1{
+    font-size: 4em;
+    color: var(--text-color);
+    font-weight: bold;
+    font-family: "Courier New";
+}
+
+.content-text p{
+    padding-top: 2rem;
+    font-size: 1.5em;
+    color: var(--text-color);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#goal-container{
+    margin-top: 4rem;
+}
+
+#developer-about-us{
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    font-family: "Courier New";
+    color: var(--text-color);
+}
+
+#developer-grid{
+    margin-bottom: 10rem;
+}
+
+.grid-content{
+    margin-top: 5rem;
+    height: 40rem;
+    width: 100%;
+    background-color: var(--grid-background-color);
+    border-radius: 2rem;
+    
+    text-align: center;
+    box-shadow: 3px 3px #444267;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.developer-avatar{
+    margin-top: 4rem;
+    border-radius: 50%;
+}
+
+.grid-content h1{
+    color: var(--text-color);
+    margin-top: 2rem;
+    font-weight: bold;
+    font-family: "Courier New";
+}
+.grid-content h3{
+    color: var(--text-color);
+    font-family: "Courier New";
 }
